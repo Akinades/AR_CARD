@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class OpenWeb : MonoBehaviour
 {
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,4 +20,9 @@ public class OpenWeb : MonoBehaviour
     {
         Application.OpenURL("https://www.ndfdev.com/");
     }
+    public void openPhone()
+    {
+        Application.OpenURL("tel://[+66-908914504]"); 
+    }
 }
+
